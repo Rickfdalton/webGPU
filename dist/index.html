@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>WebGPU Step-by-Step 1</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="grid">
+        <div class="item1">
+            <h1>Triangle with vertex color</h1>
+        </div>
+        <div class="item2">
+            <canvas id="canvas-webgpu" width="640" height="480"></canvas>
+        </div>
+    </div>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            height: 100vh;
+        }
+        
+        .item1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+   <script src="main.bundle.js"></script>
+</body>
+</html>

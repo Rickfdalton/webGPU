@@ -1,0 +1,27 @@
+{
+  "name": "gpuapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "watch": "webpack --watch --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/jquery": "^3.5.33",
+    "@webgpu/types": "^0.1.68",
+    "css-loader": "^7.1.2",
+    "jquery": "^3.7.1",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "ts-shader-loader": "^2.1.0",
+    "typescript": "^5.9.3",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
